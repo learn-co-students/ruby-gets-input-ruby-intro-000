@@ -4,5 +4,9 @@ require_relative '../lib/hello_ruby_programmer.rb'
 
 puts "Hi! Welcome to the wonderful world of Ruby programming."
 puts "Please enter your name so that we can greet you more personally:"
+
+#allows input using 'gets' command; gets method captures the last thing the user typed into the terminal
 name = gets.strip
+
+#use input from 'name' variable; passing the user's input into the #greeting method as an argument
 greeting(name)
