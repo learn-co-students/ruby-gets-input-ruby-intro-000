@@ -1,8 +1,10 @@
-#!/usr/bin/env ruby
+#!/usr/bin/env Ruby
 
-require_relative '../lib/hello_ruby_programmer.rb'
+require_relative 'name/lib/hello_ruby_programer.rb'
 
-puts "Hi! Welcome to the wonderful world of Ruby programming."
-puts "Please enter your name so that we can greet you more personally:"
-name = gets.strip
+puts "Hi! Welcome to the wonderful world of Ruby programing."
+puts "Please enter your name so that we can greet you more personally:
+name=gets.strip
 greeting(name)
+answer=gets.strip
+goodbye(name)
