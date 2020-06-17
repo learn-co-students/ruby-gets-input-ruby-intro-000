@@ -2,7 +2,18 @@
 
 require_relative '../lib/hello_ruby_programmer.rb'
 
+#greeting the user 
 puts "Hi! Welcome to the wonderful world of Ruby programming."
+
+#now we are asking the user for input 
+
 puts "Please enter your name so that we can greet you more personally:"
+
+
 name = gets.strip
+
+#we are going to use the input to then pass it on to the argument. It captures the last thing the user typed into the terminal.
+
 greeting(name)
+
+
